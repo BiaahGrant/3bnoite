@@ -1,0 +1,20 @@
+groupId       - artifactId  - versão  - Ger Dependecias
+
+org.primefaces  primefaces      5.3      maven
+
+org.primefaces.themes bootstrap 1.0.10	 maven
+
+org.glassfish       javax.faces 2.2.9    maven
+
+javax.servlet javax.servlet-api 3.1.0    maven
+
+
+
+<repositories>
+        <repository>
+            <id>prime-repo</id>
+            <name>PrimeFaces Maven Repository</name>
+            <url>http://repository.primefaces.org</url>
+            <layout>default</layout>
+        </repository>
+</repositories>
