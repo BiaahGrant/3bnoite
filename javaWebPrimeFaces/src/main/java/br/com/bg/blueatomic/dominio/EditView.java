@@ -1,4 +1,4 @@
-package dominio;
+package br.com.bg.blueatomic.dominio;
 
 import java.io.Serializable;
 import java.util.List;

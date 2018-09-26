@@ -1,6 +1,6 @@
-package dominio;
+package br.com.bg.blueatomic.dominio;
 
-import dominio.Car;
+import br.com.bg.blueatomic.dominio.Car;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

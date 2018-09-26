@@ -1,4 +1,4 @@
-package dominio;
+package br.com.bg.blueatomic.dominio;
 
 public class Car {
 
