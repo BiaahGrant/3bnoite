@@ -69,5 +69,5 @@
 			<layout>default</layout>
 		</repository>
 	</repositories>
-
+    <name>blue-atomic-etec</name>
 </project>
