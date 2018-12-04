@@ -1,0 +1,30 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="./WEB-INF/templates/Layout.xhtml">
+
+    <ui:define name="content">
+        <h1 class="aw-page-title">CONTROLE DE RAMAIS</h1>
+        <h:form id="form">
+            <p:dataTable  var="ramal" value="#{dtRamalMB.ramais}">
+                <p:column headerText="Nome">
+                    <h:outputText value="#{ramal.nome}" />
+                </p:column>
+
+                <p:column headerText="Ramal">
+                    <h:outputText value="#{ramal.ramal}" />
+                </p:column>
+
+                <p:column headerText="Depto">
+                    <h:outputText value="#{ramal.depto}" />
+                </p:column>
+
+                <p:column headerText="Empresa">
+                    <h:outputText value="#{ramal.empresa}" />
+                </p:column>
+            </p:dataTable>
+        </h:form>
+    </ui:define>
+</ui:composition>

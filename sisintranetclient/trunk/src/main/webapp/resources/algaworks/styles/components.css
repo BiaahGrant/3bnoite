@@ -1,0 +1,73 @@
+/* TOGGLE - menu Hamburger */
+.aw-toggle {
+	float: left;
+	line-height: 50px;
+	padding: 1px 5px;
+	color: #fff;
+        font-size: x-large;
+	margin-left: 5px;
+
+}
+
+/* MENU - esquerdo */
+.aw-menu {
+	font-size: 0.9em;
+        
+	
+}
+.aw-arrow-menu{
+    display:flex;
+    justify-content:flex-start;
+    padding:10px; 
+}
+
+.aw-menu > ul {
+	margin: 0;
+	padding: 2px 0;
+	list-style: none;
+}
+
+.aw-menu > ul a {
+	display: block;
+	padding: 3px 5px;
+	text-decoration: none;
+	font-weight: 600;
+	color: #373737;
+} 
+
+.aw-menu > ul i {
+	margin-right: 6px;
+	font-size: large;
+}
+/* hover  cinza claro*/
+.aw-menu > ul a:hover, .aw-menu > ul a:focus {
+	background-color: #dfdfdf;
+}
+/* selecionado  cinza claro*/
+.aw-menu > ul .is-selected {
+	border-left: 3px solid #1e94d2; /*borda azul direita*/
+	background-color: #f3f3f3;
+}
+/* selecionado cor azul */
+.aw-menu > ul .is-selected a {
+	margin-left: -3px;
+	color: #1e94d2;
+}
+
+/* PAGE-TITLE cor do titulo */
+.aw-page-title {
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 1.5em;
+	color: #373737;
+}
+/* PAGE-TITLE cor do titulo */
+.aw-page-pesquisa {
+	margin: 0;
+	padding: 20px 200px;
+	text-align: center;
+	font-size: 1.5em;
+	color: #373737;
+}
+
